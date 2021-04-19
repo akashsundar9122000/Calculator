@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/cal_layout"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/input_layout"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/cal_layout"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/cal_layout"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

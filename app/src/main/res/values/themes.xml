@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--  Base application theme.  -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/blue</item>
+    </style>
+    <style name="Button_Blue" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@color/blue</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Button_Red" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@color/red</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Button_Green" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@color/green</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Button_Purple" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@color/purple_200</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
